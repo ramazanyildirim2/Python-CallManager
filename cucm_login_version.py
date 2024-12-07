@@ -5,10 +5,10 @@ from zeep.transports import Transport
 from zeep.cache import SqliteCache
 import urllib3
 
-WSDL_URI = 'AXLAPI.wsdl'
-CUCM_USERNAME = 'AXL_ZKB_DESTEK'
-CUCM_PASSWD = 'zkb1234'
-CUCM_URL = 'https://10.211.35.10:8443/axl/'
+WSDL_URI = 'AXLAPI.wsdl' #WSDL path
+CUCM_USERNAME = 'AXL_USER'
+CUCM_PASSWD = 'AXL_PASSWORD'
+CUCM_URL = 'https://CUCM_IP:8443/axl/'
 
 #Connect to CUCM
 # disable Insecure Request Warning due to Verify
